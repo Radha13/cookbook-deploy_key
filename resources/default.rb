@@ -16,7 +16,7 @@ actions :create, :add, :remove, :delete
 default_action :add
 
 attribute :label, :kind_of => String, :name_attribute => true
-attribute :path, :kind_of => String, :required => true
+attribute :path, :kind_of => String, :required => false
 
 # For OAuth: { :token => token }
 # For user/pass: { :user => user, :password => password }
